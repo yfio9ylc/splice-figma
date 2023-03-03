@@ -1,0 +1,40 @@
+.gear {
+    padding-top: 95px;
+}
+.gears-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.gear-content-left {
+    width: 424px
+}
+.gear-title {
+    color: #A6A8AD;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+.gear-heading {
+    font-size: 28px;
+    margin-bottom: 12px;
+    line-height: 36px;
+}
+.gear-text {
+    font-size: 16px;
+    margin-bottom: 18px;
+    line-height: 24px;
+}
+.button-explore-gear {
+    background: #0033FF;
+    border-radius: 8px;
+    color: #FFFFFF;
+    padding: 5px 20px 7px 20px;
+    transition: opacity 0.8s ease;
+}
+
+.button-explore-gear:hover {
+    opacity: 0.8; 
+}
+.gear-content-right {
+}

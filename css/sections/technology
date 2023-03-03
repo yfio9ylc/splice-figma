@@ -1,0 +1,19 @@
+.technology {
+}
+.technology-content {
+    display: flex;
+    align-items: center;
+    gap: 84px;
+}
+.technology-right {
+
+}   
+.technology-title {
+    color: #A6A8AD;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+.technology-headding {
+}
+.technology-text {
+}

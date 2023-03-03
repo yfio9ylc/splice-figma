@@ -1,0 +1,32 @@
+.try-splice {
+    background-image: url('../../img/try-splice/try-splice-img.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.try-splice-h2 {
+    font-size: 54px;
+    line-height: 60px;
+    /* padding: 283px 352px 385px 353px; */
+}
+.start-now-button {
+    background: #0033FF;
+    border-radius: 8px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 8px 20px;
+    transition: opacity 0.8s ease;
+}
+
+.start-now-button:hover {
+    opacity: 0.8;
+}
+
+.try-splice-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 57px;
+    padding-top: 283px; 
+}

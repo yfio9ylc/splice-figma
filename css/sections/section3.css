@@ -1,0 +1,40 @@
+.section3 {
+    background-image: url('./../../img/section3/bg-img-png.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+.section3-content {
+    margin-top: 140px;
+    max-width: 440px;
+    position: absolute;
+}
+.section3-heading {
+    font-size: 72px;
+    line-height: 72px;
+    margin-bottom: 26px;
+}
+
+.section3-text {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 44px;
+}
+
+.section3-button, a.section3-button {
+    background: #0033FF;
+    border-radius: 8px;
+    padding: 16px 32px;
+    color: inherit;
+    transition: opacity 0.8s ease;
+    font-size: 16px;
+}
+
+.section3-button:hover, a.section3-button:hover {
+    opacity: 0.8;
+    color: #fff;
+}
+
+
+

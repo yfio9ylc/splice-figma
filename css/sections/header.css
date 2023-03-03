@@ -1,0 +1,82 @@
+.header {
+    padding-top: 17px;
+    padding-bottom: 19px;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    background-color: #121214;
+}
+
+.header-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-row-left {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo {
+    
+}
+.header-nav {
+    margin-left: 29px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    color: #A6A8AD
+}
+
+.header-nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-nav li + li {
+    margin-left: 20px;
+}
+
+.header-nav a {
+    color: #A6A8AD;
+    transition: color 0.2s ease;
+}
+
+.header-nav a:hover {
+    color: #FFFFFF;
+}
+
+.header-login {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+}
+
+.header-login a {
+    color: #A6A8AD;
+    transition: color 0.2s ease;
+}
+
+.header-login a:hover {
+    color: #FFFFFF;
+}
+
+.header-button, a.header-button {
+    padding: 8px 21px;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 32px;
+    color: #121214;
+    transition: opacity 0.8s ease;
+}
+
+.header-button:hover, a.header-button:hover {
+    opacity: 0.8;
+    color: #121214;
+}

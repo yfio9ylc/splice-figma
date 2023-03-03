@@ -1,0 +1,26 @@
+.section2 {
+    background-color: #0033FF;
+    position: sticky;
+    z-index: 999;
+    top: 71px;
+    line-height: 24px;
+
+}
+.free-sounds {
+    padding: 11px 240px;
+    color: #FFFFFF;
+}
+.info {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    justify-content: center;
+}
+
+.info a {
+    color: #FFFFFF;
+}
+
+.click-here {
+    margin-left: 54px;
+}

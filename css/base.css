@@ -1,0 +1,37 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #121214;
+}
+
+/* utility */
+.none {
+    display: none !important;
+}
+
+/* grid */
+.container {  
+    padding-left: 48px;
+    padding-right: 48px;
+}
+
+.container-large {
+    width: 100%;
+    max-width: 1096px;
+    margin: 0 auto;
+}
+
+.container-sec2 {
+    height: 46px;
+    /* padding-left: 15px;
+    padding-right: 15px; */
+}
+
+.container-sounds {
+    max-width: 100%;
+    margin: 0 auto;
+    width: 1240px;
+    box-sizing: border-box;
+    padding: 0 20px;
+}
